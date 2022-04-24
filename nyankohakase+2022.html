@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<link rel="stylesheet" href="style.css">
+
+<header>
+<center>
+<font size="4">
+<h1>理科工房ポータルサイトへようこそ！</h1>
+</font>
+</center>
+</header>
+<style>
+    header {
+        position: fixed;
+        color: black;
+        width: 100%;
+        height: 100px;
+        background-color: #fd7e00 ;
+    }
+
+</style>
+
+<br>
+<br>
+<br>
+<br>
+
+<body>
+<center><font size="5"><p><div id="current_date"></p>
+<script>
+date = new Date();
+year = date.getFullYear();
+month = date.getMonth() + 1;
+day = date.getDate();
+document.getElementById("current_date").innerHTML = year + "/" + month + "/" + day;
+</script></</p></font></center>
+
+<br>
+
+ <center><button type="button" id="a" onclick="location.href='実験/jikken.html'"><font size="5">実験</font></button>　
+ <button type="button" id="b" onclick="location.href='スケジュール/carender.html'"><font size="5">スケジュール</font></button>　
+ <button type="button" id="c" onclick="location.href='振り返り/hurikaeri.html'"><font size="5">振り返り</font></button></center>
+
+<br>
+<br>
+<br>
+
+<center><button type="button" id="d" onclick="location.href='https://portal.mc.chitose.ac.jp/portal/?0'"><img src="あ.png"></button></center>
+<br>
+<center><button type="button" id="d" onclick="location.href='http://rikakoubou.blog28.fc2.com/page-3.html'"><img src="い.png"></button></center>
+<br>
+<center><button type="button" id="d" onclick="location.href='https://www.instagram.com/accounts/login/?next=/rikako_f108/'"><img src="う.png"></button></center>
+<style>
+#a {
+        color: black;
+        width: 18%;
+        height: 40px;
+        background-color: #e0ffff;
+    }
+#b {
+        color: black;
+        width: 27%;
+        height: 40px;
+        background-color: #e0ffff;
+    }
+#c {
+        color: black;
+        width: 22%;
+        height: 40px;
+        background-color: #e0ffff;
+    }
+</style>
+</body>
+
+</html>
